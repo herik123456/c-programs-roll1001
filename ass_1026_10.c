@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <ctype.h>
+#include <ctype.h>  // for tolower()
 
 int isConsonant(char ch) {
     ch = tolower(ch);
